@@ -1,0 +1,75 @@
+.Container {
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+.headerForm {
+
+    width: 100%;
+    background-color: #074770 ;
+    box-sizing: border-box;
+    
+    opacity: 1;
+    padding: 20px;
+}
+
+.contentContainer {
+    width: 100%;
+}
+
+.informationBlock {
+    position: absolute;
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    height: 70%;
+}
+
+td, th {
+    text-align: left;
+}
+
+.RouteButtonCSS {
+    background-color: #81A1B6;
+    border-radius: 21px;
+    width: 445px;
+    height: 42px;
+    position: absolute;
+    bottom: 0;
+}
+
+.mapBlock {
+
+    position: absolute;
+    left: 50%;
+    width: 50%;
+
+}
+label {
+    color: white;
+}
+
+.formContent {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.buttonCSS {
+    position: absolute;
+    right: 60px;
+    top: 60px;
+    background-color: #81A1B6;
+    border-radius: 21px;
+    width: 179px;
+    height: 42px;
+
+}
+
+[type="text"] {
+    width: 200px;
+    height: 42px;
+}
+
+button:focus { outline: none; }
